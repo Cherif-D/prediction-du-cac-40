@@ -99,24 +99,26 @@ L’application Streamlit permet :
 
 Projet-CAC40/
 │
-├── web_app/ # Interface utilisateur Streamlit (optionnelle)
-│ └── app.py
+├── web_app/                      # (Optionnel) Interface utilisateur avec Streamlit
+│   └── app.py                    # Script principal de l'application web
 │
-├── src/
-│ ├── data_preprocessing.py # Téléchargement et transformation des données
-│ ├── model.py # Définition de l’architecture LSTM
-│ └── predict.py # Script de prédiction
+├── src/                          # Scripts sources
+│   ├── data_preprocessing.py     # Téléchargement et transformation des données CAC 40
+│   ├── model.py                  # Définition et compilation du modèle LSTM
+│   └── predict.py                # Script de prédiction (utilise le modèle et les données prétraitées)
 │
-├── train_model.py # Script d'entraînement du modèle
+├── train_model.py                # Entraînement du modèle LSTM à partir des données
 │
-├── data/
-│ └── cac40_latest.csv # Données historiques CAC 40
+├── data/                         # Données brutes ou traitées
+│   └── cac40_latest.csv          # Données historiques du CAC 40 téléchargées via yfinance
 │
-├── model/
-│ └── cac40_lstm.h5 # Modèle entraîné
+├── model/                        # Modèle sauvegardé après entraînement
+│   └── cac40_lstm.h5             # Fichier du modèle LSTM entraîné (format Keras HDF5)
 │
-├── requirements.txt # Dépendances
-└── README.md # Fichier explicatif
+├── requirements.txt              # Liste des dépendances Python (yfinance, pandas, sklearn, tensorflow, etc.)
+│
+└── README.md                     # Documentation du projet
+
 
 yaml
 Copier
