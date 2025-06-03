@@ -78,10 +78,6 @@ L’application Streamlit permet :
 - De comparer la dernière vraie valeur avec la prédiction du modèle,
 - D’intégrer **TradingView** (en option) pour une vue en temps réel du marché.
 
-### Vidéo de démonstration 📹
-
-👉 [Clique ici pour voir la démo de la WebApp sur Google Drive](https://drive.google.com/drive/folders/1mEXAjKg-vCgXeArxqmXDLxjJt7pAo05m?usp=drive_link)
-
 ---
 
 ## ✅ Fonctionnalités
@@ -120,9 +116,7 @@ Projet-CAC40/
 └── README.md                     # Documentation du projet
 
 
-yaml
-Copier
-Modifier
+
 
 ---
 
@@ -146,15 +140,13 @@ yfinance
 scikit-learn
 tensorflow
 streamlit
-🚫 Limitations connues
+🚫 Limitations 
 La prédiction repose uniquement sur la variable Close, sans indicateurs techniques (MACD, RSI, etc.) pour l’instant.
 
 Le modèle LSTM, bien que performant, peut subir un surapprentissage si les données ne sont pas bien préparées.
 
-Les données de Yahoo Finance peuvent occasionnellement échouer si l’API est instable.
 
 👨‍💻 Auteur
 Ce projet a été entièrement réalisé en autonomie par :
 
 Diallo Mamadou Cherif
-📬 [Ajouter votre email ou profil LinkedIn/GitHub ici]
