@@ -92,7 +92,7 @@ L’application Streamlit permet :
 
 ---
 
-##👨‍💻 Auteur
+👨‍💻 Auteur
 Ce projet a été réalisé en autonomie par :
 
 Mamadou Cherif DIALLO
