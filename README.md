@@ -87,41 +87,7 @@ L’application Streamlit permet :
 ✔️ Prédiction de la prochaine valeur de clôture  
 ✔️ Visualisation interactive avec Streamlit  
 ✔️ Pipeline complet de bout en bout  
-✔️ Intégration facultative de TradingView  
-
----
-
-
-
-
----
-
-## ⚙️ Lancer le projet
-
-```bash
-git clone https://github.com/ton-utilisateur/cac40-lstm.git
-cd cac40-lstm
-python -m venv env
-env\Scripts\activate        # Ou source env/bin/activate sur Mac/Linux
-pip install -r requirements.txt
-python train_model.py       # Entraînement
-streamlit run web_app/app.py
-🔧 Contenu de requirements.txt
-
-pandas
-numpy
-yfinance
-scikit-learn
-tensorflow
-streamlit
-🚫 Limitations 
-La prédiction repose uniquement sur la variable Close, sans indicateurs techniques (MACD, RSI, etc.) pour l’instant.
-
-Le modèle LSTM, bien que performant, peut subir un surapprentissage si les données ne sont pas bien préparées.
-
----
-
-
+✔️ Intégration facultative de TradingView 
 
 
 ---
