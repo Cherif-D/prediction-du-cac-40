@@ -120,8 +120,8 @@ La prédiction repose uniquement sur la variable Close, sans indicateurs techniq
 Le modèle LSTM, bien que performant, peut subir un surapprentissage si les données ne sont pas bien préparées.
 
 
-👨‍💻 Auteur
-Ce projet a été entièrement réalisé en autonomie par :
+## 👨‍💻 Auteur
+Ce projet a été réalisé en autonomie par :
 
-Diallo Mamadou Cherif
-https://github.com/Cherif-D
+Mamadou Cherif DIALLO
+Dans le cadre de mon mémoire de master 1 qui portait sur le machine learning et les marchés financiers.
